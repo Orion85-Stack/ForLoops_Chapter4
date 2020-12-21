@@ -31,3 +31,23 @@ print (list_2)
 print(max(list_2))
 print(min(list_2))
 print(float(sum(list_2)))
+
+list_odd = [value for value in range (1, 15, 2)]
+print (list_odd)
+
+list_mult3 = [value for value in range (3, 31, 3)]
+print (list_mult3)
+
+list_multi_3 = []
+for value in range (3, 31, 3):
+  list_multi_3.append(value)
+print (list_multi_3)
+print (sum(list_multi_3))
+
+list_cube = [value ** 3 for value in range (0, 11)]
+print (list_cube)
+
+list_cube_2 = []
+for value in range (0, 11):
+  list_cube_2.append(value ** 3)
+print (list_cube_2)
