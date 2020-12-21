@@ -16,3 +16,18 @@ squares = [value ** 2 for value in range (1,11)]
 print (squares)
 max(squares)
 
+list_20 = []
+for value in range (1,21):
+  list_20.append(value)
+print (list_20)
+
+list_1mil = []
+for value in range (1, 15):
+  list_1mil.append(value)
+print (list_1mil)
+
+list_2 = [value ** 2 for value in range (1, 11)]
+print (list_2)
+print(max(list_2))
+print(min(list_2))
+print(float(sum(list_2)))
